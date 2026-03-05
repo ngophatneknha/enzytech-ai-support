@@ -84,7 +84,10 @@ export default function ChatPage() {
             <ArrowLeft size={24} />
           </Link>
           <div className="flex flex-col items-center">
-            <h1 className="font-bold text-emerald-900 text-lg">{product.name}</h1>
+            <div className="flex items-center gap-2">
+              {product.logo && <img src={product.logo} alt="logo" className="w-6 h-6 object-contain" />}
+              <h1 className="font-bold text-emerald-900 text-lg">{product.name}</h1>
+            </div>
             <span className="text-xs text-emerald-500 flex items-center gap-1">
               <Sparkles size={12} /> AI Support
             </span>

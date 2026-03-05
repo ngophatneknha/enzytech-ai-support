@@ -71,17 +71,22 @@ export default function Home() {
               </div>
             </div>
             <div className="p-8">
-              <h3 className="text-2xl font-bold text-emerald-900 mb-3">{product.name}</h3>
+              <div className="flex items-center gap-3 mb-3">
+                {product.logo && (
+                  <img src={product.logo} alt="logo" className="w-10 h-10 rounded-lg object-contain bg-emerald-50 p-1" />
+                )}
+                <h3 className="text-2xl font-bold text-emerald-900">{product.name}</h3>
+              </div>
               <p className="text-emerald-600 text-base mb-6">{product.description}</p>
               
               <div className="grid grid-cols-2 gap-4 mb-6 text-sm text-emerald-700 bg-emerald-50 p-4 rounded-xl">
                  <div>
-                    <span className="font-semibold block mb-1">Thành phần:</span>
-                    Chiết xuất vỏ bưởi, Enzyme sinh học...
+                    <span className="font-semibold block mb-1 text-emerald-800">Thành phần:</span>
+                    <span className="line-clamp-2">{product.ingredients}</span>
                  </div>
                  <div>
-                    <span className="font-semibold block mb-1">Công dụng:</span>
-                    Giảm rụng tóc, kích thích mọc tóc...
+                    <span className="font-semibold block mb-1 text-emerald-800">Công dụng:</span>
+                    <span className="line-clamp-2">{product.benefits}</span>
                  </div>
               </div>
 
