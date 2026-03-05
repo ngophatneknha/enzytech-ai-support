@@ -72,7 +72,7 @@ export const products: Product[] = [
     benefits: "Sạch khuẩn 99.9%, không gây khô da, tiện lợi, hương thơm tự nhiên.",
     safety: "Chỉ dùng ngoài da. Tránh tiếp xúc với mắt.",
     usage: "Cho một lượng nhỏ vào lòng bàn tay, xoa đều cho đến khi tay khô.",
-    image: "/enzyme-hand-sanitizer.jpg",
+    image: "https://images.unsplash.com/photo-1584735935639-4c028a1fac2c?q=80&w=600&auto=format&fit=crop",
     systemPrompt: `Bạn là trợ lý AI của sản phẩm "Gel rửa tay khô Enzyme". Hãy tư vấn về khả năng diệt khuẩn, ưu điểm không gây khô da và sự tiện lợi của sản phẩm.`
   },
   {
