@@ -19,7 +19,7 @@ export default function ChatPage() {
     if (product) {
       const initChat = async () => {
         try {
-          const genAI = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+          const genAI = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
           const chat = genAI.chats.create({
             model: "gemini-3-flash-preview",
             config: {
