@@ -54,7 +54,7 @@ export default function Home() {
 
       <h2 id="products" className="text-2xl font-bold text-emerald-900 mb-8 text-center">Sản phẩm chủ đạo</h2>
 
-      <div className="flex justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {products.map((product) => (
           <div key={product.id} className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow border border-emerald-100 group max-w-2xl w-full">
             <div className="relative h-64 overflow-hidden">
