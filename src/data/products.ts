@@ -42,17 +42,6 @@ export const products: Product[] = [
     `
   },
   {
-    id: "mint-enzyme-shampoo",
-    name: "Dầu gội Trị gàu Enzyme Bạc hà",
-    description: "Công thức đột phá với enzyme và tinh chất bạc hà, giúp làm sạch gàu, giảm ngứa và mang lại cảm giác mát lạnh sảng khoái.",
-    ingredients: "Enzyme (Ketoconazole-like), Tinh chất bạc hà, Salicylic Acid, Chiết xuất cây trà.",
-    benefits: "Sạch gàu hiệu quả, ngăn gàu quay trở lại, giảm ngứa da đầu, kiềm dầu, cảm giác mát lạnh.",
-    safety: "Không dùng cho da đầu có vết thương hở. Tránh tiếp xúc với mắt.",
-    usage: "Làm ướt tóc, massage nhẹ nhàng với dầu gội, giữ trong 2-3 phút rồi xả sạch. Dùng 2-3 lần/tuần.",
-    image: "https://images.unsplash.com/photo-1627635079132-504048913342?q=80&w=600&auto=format&fit=crop",
-    systemPrompt: `Bạn là trợ lý AI của sản phẩm "Dầu gội Trị gàu Enzyme Bạc hà". Hãy tư vấn về hiệu quả trị gàu, cảm giác mát lạnh và cách sử dụng để đạt hiệu quả tốt nhất.`
-  },
-  {
     id: "enzyme-dish-soap",
     name: "Nước rửa chén Enzyme Cam",
     description: "Làm sạch dầu mỡ hiệu quả, an toàn cho da tay và thân thiện với môi trường nhờ công nghệ enzyme cam tự nhiên.",
@@ -63,17 +52,6 @@ export const products: Product[] = [
     image: "/sanphamnuocruachenenzymecam_hinhsanpham.jpg",
     logo: "/sanphamnuocruachenenzymecam_logo.jpg",
     systemPrompt: `Bạn là trợ lý AI của sản phẩm "Nước rửa chén Enzyme Cam". Hãy tư vấn về khả năng làm sạch, độ an toàn và các thành phần tự nhiên từ cam của sản phẩm.`
-  },
-  {
-    id: "enzyme-hand-sanitizer",
-    name: "Gel rửa tay khô Enzyme",
-    description: "Làm sạch tay nhanh chóng, diệt khuẩn mà không cần dùng nước, bổ sung enzyme giúp da tay mềm mại.",
-    ingredients: "Ethanol 70%, Enzyme (Lysozyme), Chiết xuất lô hội, Tinh dầu tràm trà.",
-    benefits: "Sạch khuẩn 99.9%, không gây khô da, tiện lợi, hương thơm tự nhiên.",
-    safety: "Chỉ dùng ngoài da. Tránh tiếp xúc với mắt.",
-    usage: "Cho một lượng nhỏ vào lòng bàn tay, xoa đều cho đến khi tay khô.",
-    image: "https://images.unsplash.com/photo-1584735935639-4c028a1fac2c?q=80&w=600&auto=format&fit=crop",
-    systemPrompt: `Bạn là trợ lý AI của sản phẩm "Gel rửa tay khô Enzyme". Hãy tư vấn về khả năng diệt khuẩn, ưu điểm không gây khô da và sự tiện lợi của sản phẩm.`
   },
   {
     id: "organic-enzyme-laundry-detergent",
