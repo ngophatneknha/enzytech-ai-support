@@ -9,10 +9,10 @@ export default function Home() {
     <Layout>
       <div className="text-center mb-16">
         <h1 className="text-4xl font-extrabold tracking-tight text-emerald-950 sm:text-5xl md:text-6xl">
-          Công nghệ <span className="text-emerald-600">Enzyme</span> & <span className="text-emerald-600">AI</span>
+          THPT <span className="text-emerald-600">Nguyễn Trãi</span>
         </h1>
         <p className="mt-4 max-w-2xl mx-auto text-xl text-emerald-700">
-          Giải pháp xanh cho cuộc sống hiện đại. Quét mã QR để trải nghiệm tư vấn thông minh từ AI.
+          Sản phẩm Enzyme và AI
         </p>
         <div className="mt-8 flex justify-center gap-4">
           <button 

@@ -39,27 +39,26 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <Leaf size={20} /> EnzyTech
             </h3>
             <p className="text-sm opacity-80 leading-relaxed">
-              Dự án khởi nghiệp học sinh - Ứng dụng công nghệ Enzyme và AI vào đời sống.
+              Một số thành tựu ứng dụng Enzyme và AI vào đời sống.
             </p>
           </div>
           <div>
             <h4 className="font-semibold mb-4 text-white">Liên hệ</h4>
             <ul className="space-y-2 text-sm opacity-80">
-              <li>Email: contact@enzytech.edu.vn</li>
-              <li>Hotline: 1900 xxxx</li>
+              <li>Tổ Sinh học</li>
+              <li>THPT Nguyễn Trãi</li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold mb-4 text-white">Công nghệ</h4>
             <ul className="space-y-2 text-sm opacity-80">
-              <li>Enzyme Protease</li>
               <li>AI Chatbot Support</li>
               <li>QR Check-in</li>
             </ul>
           </div>
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 pt-8 border-t border-emerald-800 text-center text-xs opacity-60">
-          © 2024 EnzyTech Student Project. All rights reserved.
+          © Được tạo và thiết kế bởi học sinh trường THPT Nguyễn Trãi.
         </div>
       </footer>
     </div>
