@@ -52,6 +52,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div>
             <h4 className="font-semibold mb-4 text-white">Công nghệ</h4>
             <ul className="space-y-2 text-sm opacity-80">
+              <li>Enzyme</li>
               <li>AI Chatbot Support</li>
               <li>QR Check-in</li>
             </ul>
